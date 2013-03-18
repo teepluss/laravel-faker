@@ -32,6 +32,7 @@ echo $faker->address;
 // "426 Jordy Lodge
 // Cartwrightshire, SC 88120-6700"
 echo $faker->text;
+
 ```
 
 
