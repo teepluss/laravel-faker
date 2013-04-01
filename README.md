@@ -23,7 +23,7 @@ Add the following to your bundles.php file if you want to autoload with every re
 Bundle::start('faker');
 
 // use the factory to create a Faker\Generator
-$faker = Faker\Factory::create();
+$faker = Faker::make('en_US');
 
 // generate data by accessing properties
 echo $faker->name;
